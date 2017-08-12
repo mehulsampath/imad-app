@@ -7,7 +7,7 @@ var element = document.getElementById('main-text');
 element.innerHTML = 'new value';
 
 //move the image
-var img = document.getElementById('ig');
-log.onclick = function() {
+var img = document.getElementById('madi');
+img.onclick = function() {
     log.style.marginLeft = '100px';
 };
